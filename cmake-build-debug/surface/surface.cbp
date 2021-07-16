@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="surface"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdParty\;CMake Files\3rdParty\coldet\;CMake Files\3rdParty\gco\;CMake Files\3rdParty\mrf\;CMake Files\cmake\;CMake Files\core\;CMake Files\util\;CMake Files\features\;CMake Files\sfm\;CMake Files\mvs\;CMake Files\examples\;CMake Files\examples\task1\;CMake Files\examples\task2\;CMake Files\examples\task3\;CMake Files\examples\task4\;CMake Files\examples\task5\;CMake Files\examples\task6\;CMake Files\examples\task7\;CMake Files\surface\;CMake Files\texturing\;CMake Files\Job\;CMake Files\Job\work2\;CMake Files\Job\work1\;CMake Files\Job\util_test\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xxl/桌面/3dmodel/cmake-build-debug/surface"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="surface">
+				<Option output="/home/xxl/桌面/3dmodel/cmake-build-debug/surface/libsurface.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xxl/桌面/3dmodel/cmake-build-debug/surface"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
+					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/xxl/桌面/3dmodel/surface/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 surface"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="surface/fast">
+				<Option output="/home/xxl/桌面/3dmodel/cmake-build-debug/surface/libsurface.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xxl/桌面/3dmodel/cmake-build-debug/surface"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
+					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/xxl/桌面/3dmodel/surface/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 surface/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xxl/桌面/3dmodel/cmake-build-debug/surface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/basis_function.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/basis_function.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/defines.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/hermite.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/hermite.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/iso_octree.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/iso_octree.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/iso_surface.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/iso_surface.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/mesh_clean.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/mesh_clean.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/octree.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/octree.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/sample.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/sample_io.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/sample_io.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/triangulation.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/triangulation.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/voxel.cc">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/voxel.h">
+			<Option target="surface"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/3rdParty/coldet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdParty\coldet\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/3rdParty/gco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdParty\gco\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/3rdParty/mrf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdParty\mrf\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/cmake/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\core\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\util\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/features/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\features\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/sfm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sfm\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/mvs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mvs\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/examples/task1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task1\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/examples/task2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task2\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/examples/task3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task3\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/examples/task4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task4\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/examples/task5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task5\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/examples/task6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task6\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/examples/task7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task7\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/surface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\surface\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/texturing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\texturing\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/Job/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Job\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/Job/work2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Job\work2\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/Job/work1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Job\work1\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/Job/util_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Job\util_test\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/xxl/桌面/3dmodel/../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
